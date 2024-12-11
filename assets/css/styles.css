@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 80vh;
+    margin: 10px auto;
+    border: 1px solid #000;   
+    border-radius: 5px; 
+    padding: 10px 0;  
+    display: flex;
+    justify-content: space-around;    
+}
+
+h1 {
+    margin-bottom: 20px; /* Define o espaço abaixo do h1 */
+}
+
+.img-fluid {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 400px; /* Ajusta a altura máxima da imagem (opcional) */
+    object-fit: contain; /* Ajusta o conteúdo da imagem dentro do espaço definido */
+}
+
+.texto-direita {
+    text-align: right;
+}
